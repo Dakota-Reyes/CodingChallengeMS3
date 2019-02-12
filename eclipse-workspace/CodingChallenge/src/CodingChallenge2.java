@@ -37,6 +37,8 @@ public class CodingChallenge2 {
      * update them in both this function and the insert() function
      * otherwise you'll likely get an error.
      * (You should only have to update them in the "statement" string)
+     * This is another DDL I use
+     * 
      * 
      */
 	public static void createNewTable() {
@@ -81,6 +83,7 @@ public class CodingChallenge2 {
 	 * @Param String bool1 = variable in column H
 	 * @Param String bool2 = variable in column I
 	 * @Param String cityName = variable in column J
+	 * This is one of the DDL's I use
      */
 	 public void insert( String lastName,String firstName,String email,String gender,String imageURL,String payInfo,String pay,String bool1,String bool2,String cityName) {
 	     //this is the line you'd want to update if table name or other variables are changed   
