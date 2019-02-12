@@ -28,7 +28,9 @@ c. # of records failed
 3rd party libraries used:
 sqlite-JDBC-3.23.1
 opencsv-4.5
-DDLs
+
+DDLs:
+
 CREATE TABLE interviewquestion (
     last_name  TEXT,
     first_name TEXT,
@@ -41,4 +43,5 @@ CREATE TABLE interviewquestion (
     bool2      TEXT,
     city_name  TEXT
 );
+
 "INSERT INTO interviewquestion(last_name,first_name,email,gender,image_url,pay_info,pay,bool1,bool2,city_name) VALUES(?,?,?,?,?,?,?,?,?,?)";
